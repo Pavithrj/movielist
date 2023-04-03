@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-import Movie from "../Components/Movie";
+import Movie from "./Movie";
 
 describe('Movie Component', () => {
 
