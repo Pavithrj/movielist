@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component should generate snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="headerStyle"
+    >
+      <h1>
+        Movie Heist
+      </h1>
+    </div>
+    <div
+      class="movie-list"
+    >
+      <div
+        class="movie box"
+      >
+        <img
+          alt="movieposter"
+          class="poster"
+          src="https://image.tmdb.org/t/p/w342undefined"
+        />
+        <p
+          class="title"
+          title="The GodFather"
+        >
+          The GodFather
+        </p>
+        <p>
+          Rating: 
+        </p>
+        <p>
+          Release Date:1972-03-14
+        </p>
+        <div>
+          <p
+            class="description"
+          >
+            abc
+          </p>
+        </div>
+        <div
+          class="buttons"
+        >
+          <button
+            class="cart"
+          >
+            ADD TO FAVORITE
+          </button>
+        </div>
+      </div>
+      <div
+        class="movie box"
+      >
+        <img
+          alt="movieposter"
+          class="poster"
+          src="https://image.tmdb.org/t/p/w342undefined"
+        />
+        <p
+          class="title"
+          title="The Shawshank Redemption"
+        >
+          The Shawshank Redemption
+        </p>
+        <p>
+          Rating: 
+        </p>
+        <p>
+          Release Date:1994-09-23
+        </p>
+        <div>
+          <p
+            class="description"
+          >
+            xyz
+          </p>
+        </div>
+        <div
+          class="buttons"
+        >
+          <button
+            class="cart"
+          >
+            ADD TO FAVORITE
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

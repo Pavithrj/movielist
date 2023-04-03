@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
+import Header from './Components/Header';
+import Movie from './Components/Movie';
 import './App.css';
 
+const movieListUrl = "https://api.themoviedb.org/3/movie/top_rated?api_key=cc31d08b0d4b5b3539a406e5af2aec1f&language=en-US&page=1";
 function App() {
+
+  const [movies, setMovies] = useState([]);
+
+  useEffect(() => {
+    fetch(movieListUrl)
+      .then((response) => response.json())
+      .then((data) => {
+        setMovies(data.results)
+      })
+      .catch((error) => console.error(error));
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header title="Movie Heist" />
+      <div className='movie-list'>
+        {movies.map(item => <Movie movie={item} />)}
+      </div>
     </div>
   );
 }

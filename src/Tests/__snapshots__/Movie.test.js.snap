@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie Component renders learn react link 1`] = `
+<DocumentFragment>
+  <div
+    class="movie box"
+  >
+    <img
+      alt="movieposter"
+      class="poster"
+      src="https://image.tmdb.org/t/p/w342/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+    />
+    <p
+      class="title"
+      title="The Godfather"
+    >
+      The Godfather
+    </p>
+    <p>
+      Rating: 8.7
+    </p>
+    <p>
+      Release Date:1972-03-14
+    </p>
+    <div>
+      <p
+        class="description"
+      >
+        Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.
+      </p>
+    </div>
+    <div
+      class="buttons"
+    >
+      <button
+        class="cart"
+      >
+        ADD TO FAVORITE
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
