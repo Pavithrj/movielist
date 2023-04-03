@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div>
-      <Header title="Movie Heist" />
+      <Header title="My Movie List" />
       <div className='movie-list'>
         {movies.map(item => <Movie movie={item} />)}
       </div>
