@@ -10,8 +10,8 @@ function Movie(props) {
         <div className='movie box'>
             <img className='poster' src={imagePosterUrl} alt='movieposter' />
             <p className='title' title={title}>{title}</p>
-            <p>Rating: {vote_average}</p>
-            <p>Release Date:{release_date}</p>
+            <p className='rating'>Rating: {vote_average}</p>
+            <p className='releaseDate'>Release Date:{release_date}</p>
             <div>
                 <p className='description'>{overview}</p>
             </div>
